@@ -1,3 +1,32 @@
+:root{
+    --soft-blue: #8bacda;
+    --cyan: #00fff7;
+    --very-dark-blue-main: #0d192b;
+    --very-dark-blue-card: #14253d;
+    --very-dark-blue-line: #2f415b;
+    --white: #ffffff;
+}
+
 * {
     font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: var(--very-dark-blue-main);
+}
+
+.card-component {
+    background-color: var(--very-dark-blue-card);
+}
+
+h1 {
+    color: var(--white);
+}
+
+p, aside {
+    color: var(--very-dark-blue-line);
+}
+
+span {
+    color: var(--cyan);
 }
